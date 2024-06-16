@@ -14,6 +14,7 @@ Jenkins Pipeline Implementation
 ### Simple Jenkins Pipeline :
 
 Set up a simple pipeline to ensure the docker slave configuration is running smoothly. 
+
 With Jenkins Master handling scheduling and Worker Nodes managing conflicts, everything's in perfect sync.
 
 
@@ -28,7 +29,9 @@ Console Output :
 ### Multi-Stage Multi-Agent Jenkins Pipeline :
 
 Now, this one's where things get interesting! It's a multi-stage pipeline, each stage running on a unique agent. 
+
 Perfect for managing multi-tier applications or those with conflicting dependencies. 
+
 Plus, with multiple Docker containers dedicated to each usage, it's as efficient as it gets.
 
 ![image](https://github.com/vighas-ks-16/Jenkins-Pipeline/assets/107311113/7481a4e9-f9c6-4d3c-a92a-78c32a9708ed)
